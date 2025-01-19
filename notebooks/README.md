@@ -5,7 +5,7 @@
 Все ноутбуки воспроизводимы!
 Все обучения проходят в рамках датасета [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
-- [00.FaceRecgognition_baseline](./00.FaceRecgognition_baseline.ipynb) - Обучение нейросети для распознавания лиц (базовое решение)
+- [00.FaceRecognition_baseline](./00.FaceRecognition_baseline.ipynb) - Обучение нейросети для распознавания лиц (базовое решение)
 - [01.FaceRecognition_ArcFace](./01.FaceRecognition_ArcFace.ipynb) - Обучение на распознавание лиц с новой реализованной функцией потерь **ArcFace loss**  (Additive Angular Margin Loss)
 - [02.FaceDetection](./02.FaceDetection.ipynb) - Знакомство с инструментами детекции и выравнивания лиц
 - [03.IdentificationRate_metric] - Реализация новой метрики **Identification rate**, проверка базового решения на ее основе
