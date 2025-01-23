@@ -13,7 +13,7 @@ Imagine you own a company and want to replace traditional access cards with a fa
 
 To meet these requirements, the face recognition system must be robust and adaptable.
 
-### How it works
+## How it works🙈
 A typical face recognition pipeline consists of **three** main **stages**:
 
 1. **Face Detection**\
@@ -28,7 +28,7 @@ A neural network processes the aligned face image and generates a fixed-size fea
 ### Why not use standard classification?
 Unlike traditional classification models, which learn to predict a fixed set of predefined classes, this system must generalize to unseen individuals. Instead of directly classifying faces, it produces embeddings that can represent new, previously unseen individuals. This approach makes the system flexible and capable of recognizing faces outside the training dataset.
 
-### Features of the project
+## Features of the project✨
 - **Complete Pipeline**:\
 The system integrates all key stages of face recognition, from detection and alignment to embedding generation.
 
@@ -40,8 +40,8 @@ Built a fully functional solution that is ready for real-world applications.
 - ArcFace Loss function [paper](https://arxiv.org/pdf/1801.07698)
 - Triplet Loss [paper](https://arxiv.org/pdf/1503.03832)
 - EfficientNet [paper](https://proceedings.mlr.press/v97/tan19a/tan19a.pdf) (3rd-stage model within the pipeline)
-- MultiTask Cascaded Convolutional Neural Network (MTCNN) [paper](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf) (a ready-made solution for the face detection task, model for the 1st-stage)
-- Data Augmentation [article](https://rumn.medium.com/ultimate-guide-to-fine-tuning-in-pytorch-part-3-deep-dive-to-pytorch-data-transforms-53ed29d18dde) (examples of data transformation)
+- MTCNN [paper](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf) (a ready-made solution for the face detection task, model for the 1st-stage)
 - MTCNN-PyTorch [github](https://github.com/timesler/facenet-pytorch)
-
+- Data Augmentation [article](https://rumn.medium.com/ultimate-guide-to-fine-tuning-in-pytorch-part-3-deep-dive-to-pytorch-data-transforms-53ed29d18dde) (examples of data transformation)
+---
 > *Interesting fact*: **Face**book has been using facial recognition to identify users in published photos and suggest tagging them since 2010
