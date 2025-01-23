@@ -8,7 +8,7 @@
 - [00.FaceRecognition_baseline](./00.FaceRecognition_baseline.ipynb) - Обучение нейросети для распознавания лиц (базовое решение)
 - [01.FaceRecognition_ArcFace](./01.FaceRecognition_ArcFace.ipynb) - Обучение на распознавание лиц с новой реализованной функцией потерь **ArcFace loss**  (Additive Angular Margin Loss)
 - [02.FaceDetection](./02.FaceDetection.ipynb) - Знакомство с инструментами детекции и выравнивания лиц
-- [03.IdentificationRate_metric] - Реализация новой метрики **Identification rate**, проверка базового решения на ее основе
+- [03.IdentificationRate_metric](./03.IdentificationRate_metric.ipynb) - Реализация новой метрики **Identification rate**, проверка базового решения на ее основе
 - [04.FaceRecognition_Triplet] - Обучение на распознавание лиц с новой реализованной функцией потерь **Triplet loss**
 - [05.FaceRecognition_mix] - Обучение на смеси функций **ArcFace loss** & **Triplet loss**
 - [06.FaceRecognition_full] - Выбор лучшего решения, прогон всего пайплайна (эмбеддинги для лиц прямо с фотографии)

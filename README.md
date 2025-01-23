@@ -34,7 +34,7 @@ The system integrates all key stages of face recognition, from detection and ali
 
 - **Research and Practical Focus**:\
 Analyzed and studied relevant literature on face recognition techniques.
-Built a fully functional solution that is ready for real-world applications
+Built a fully functional solution that is ready for real-world applications.
 
 ## Sources
 - ArcFaceLoss function [paper](https://arxiv.org/pdf/1801.07698)
