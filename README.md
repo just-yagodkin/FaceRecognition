@@ -1,6 +1,6 @@
 # Face Recognition Project
 
-## Description
+## Description📜
 
 This project is dedicated to the development of a **face recognition pipeline** that can process images containing one or multiple faces and output feature embeddings for each detected face. These embeddings enable effective differentiation between individuals, making the system versatile for various applications, such as access control and identity verification.
 
@@ -36,9 +36,12 @@ The system integrates all key stages of face recognition, from detection and ali
 Analyzed and studied relevant literature on face recognition techniques.
 Built a fully functional solution that is ready for real-world applications.
 
-## Sources
-- ArcFaceLoss function [paper](https://arxiv.org/pdf/1801.07698)
+## Sources📚
+- ArcFace Loss function [paper](https://arxiv.org/pdf/1801.07698)
+- Triplet Loss [paper](https://arxiv.org/pdf/1503.03832)
 - EfficientNet [paper](https://proceedings.mlr.press/v97/tan19a/tan19a.pdf) (3rd-stage model within the pipeline)
+- MultiTask Cascaded Convolutional Neural Network (MTCNN) [paper](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf) (a ready-made solution for the face detection task, model for the 1st-stage)
 - Data Augmentation [article](https://rumn.medium.com/ultimate-guide-to-fine-tuning-in-pytorch-part-3-deep-dive-to-pytorch-data-transforms-53ed29d18dde) (examples of data transformation)
+- MTCNN-PyTorch [github](https://github.com/timesler/facenet-pytorch)
 
 > *Interesting fact*: **Face**book has been using facial recognition to identify users in published photos and suggest tagging them since 2010
