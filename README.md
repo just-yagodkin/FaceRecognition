@@ -42,7 +42,7 @@ Built a fully functional solution that is ready for real-world applications.
 - EfficientNet [paper](https://proceedings.mlr.press/v97/tan19a/tan19a.pdf) (3rd-stage model within the pipeline)
 - MTCNN [paper](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf) (a ready-made solution for the face detection task, model for the 1st-stage)
 - MTCNN-PyTorch [github](https://github.com/timesler/facenet-pytorch)
-- Triplet Loss(triplet mining) [article](https://omoindrot.github.io/triplet-loss#triplet-mining)
+- Triplet Loss (triplet mining) [article](https://omoindrot.github.io/triplet-loss#triplet-mining)
 - Data Augmentation [article](https://rumn.medium.com/ultimate-guide-to-fine-tuning-in-pytorch-part-3-deep-dive-to-pytorch-data-transforms-53ed29d18dde) (examples of data transformation)
 ---
 > *Interesting fact*: **Face**book has been using facial recognition to identify users in published photos and suggest tagging them since 2010
